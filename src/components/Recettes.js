@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from "axios";
 import Card from "./Card";
+import './Recettes.css'
 
 const Recettes = () => {
 
@@ -18,7 +19,7 @@ const Recettes = () => {
 	},[input]);
 
     return (
-		<div>
+		<div id="root">
 			<h1>Appli recettes de cuisine</h1>
 			<input id="inp" placeholder="ingredient name..." onChange={(event) => setInput(event.target.value)} value={input}/>
 			<div>

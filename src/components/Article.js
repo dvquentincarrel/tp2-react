@@ -32,7 +32,7 @@ function Article({props, updateFunc}) {
 
 	if(edition == false){
 		return (
-			<article>
+			<article className="blogArticle">
 				<div className="header">
 					<h3>{props.author}</h3>
 					<i><p>Posté le {date} à {time}</p></i>
@@ -46,7 +46,7 @@ function Article({props, updateFunc}) {
 		)
 	} else {
 		return (
-			<article>
+			<article className="blogArticle">
 				<div className="header">
 					<h3>{props.author}</h3>
 					<i><p>Posté le {date} à {time}</p></i>

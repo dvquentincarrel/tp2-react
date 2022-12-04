@@ -1,5 +1,4 @@
 import logo from './logo.svg';
-import './App.css';
 import Blog from './components/Blog.js';
 import Recettes from './components/Recettes.js';
 
@@ -9,12 +8,12 @@ function App() {
 		return (
 			<div>
 				<Blog />
+				<Recettes />
 			</div>
 		);
 	}else{
 		return(
-			<div>
-				<Recettes />
+			<div id="root">
 			</div>
 		);
 

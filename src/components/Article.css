@@ -1,4 +1,4 @@
-article {
+.blogArticle {
 	background: white;
 	margin: 20px 50px;
 	padding: 20px;
@@ -6,22 +6,22 @@ article {
 	border-radius: 5px;
 }
 
-article .header {
+.blogArticle .header {
 	display: flex;
 	justify-content: space-between;
 }
 
-article .footer {
+.blogArticle .footer {
 	display: flex;
 	justify-content: flex-end;
 }
 
-article textarea {
+.blogArticle textarea {
 	width: 95%;
 	height: 100px;
 }
 
-article p {
+.blogArticle p {
 	max-width: 95%;
 	overflow: auto;
 }
