@@ -1,0 +1,31 @@
+#blog_input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 50%;
+	margin: auto;
+}
+
+#blog_input * {
+	border-radius: 5px;
+}
+
+.input_zone {
+	width: 100%;
+	border-style: solid;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+#blog_input textarea {
+	height: 100px;
+}
+
+#blog_input button {
+	width: 200px;
+	height: 30px;
+	border: 0px;
+	margin-top: 10px;
+	background: coral;
+	align-self: end;
+}

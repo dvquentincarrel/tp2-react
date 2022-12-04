@@ -1,0 +1,27 @@
+article {
+	background: white;
+	margin: 20px 50px;
+	padding: 20px;
+	box-shadow: 5px 5px 10px lightgrey;
+	border-radius: 5px;
+}
+
+article .header {
+	display: flex;
+	justify-content: space-between;
+}
+
+article .footer {
+	display: flex;
+	justify-content: flex-end;
+}
+
+article textarea {
+	width: 95%;
+	height: 100px;
+}
+
+article p {
+	max-width: 95%;
+	overflow: auto;
+}
