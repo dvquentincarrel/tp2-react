@@ -2,10 +2,11 @@ body {
 	background: #F0F0F0;
 }
 
-#root > div {
+#recettes {
 	text-align: center;
 }
-#root > div > div {
+
+#recettes > div {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;

@@ -1,9 +1,12 @@
-import logo from './logo.svg';
 import Menu from './components/Menu.js';
+import { Outlet } from "react-router-dom";
 
 function App() {
 	return(
-		<Menu />
+		<div>
+			<Menu />
+			<Outlet />
+		</div>
 	)
 }
 

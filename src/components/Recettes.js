@@ -19,7 +19,7 @@ const Recettes = () => {
 	},[input]);
 
     return (
-		<div id="root">
+		<div id="recettes">
 			<h1>Appli recettes de cuisine</h1>
 			<input id="inp" placeholder="ingredient name..." onChange={(event) => setInput(event.target.value)} value={input}/>
 			<div>

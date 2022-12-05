@@ -1,0 +1,16 @@
+nav {
+	font-size: 1.3em;
+	position: sticky;
+	top: 0px;
+}
+nav ul {
+	list-style-type: none;
+	border: 1px darkorange solid;
+	border-radius: 20px;
+	width: fit-content;
+	display: flex;
+	background: #F0F0F0;
+	padding: 15px 5px;
+}
+
+

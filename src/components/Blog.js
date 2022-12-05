@@ -37,6 +37,7 @@ function Blog(){
 				setContent('')
 			})
 		} else {
+			alert("Article non-conforme. Merci d'entrer un nom et un avis de plus de 100 caractères")
 			console.log("pas conforme")
 		}
 	}
